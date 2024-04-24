@@ -3,7 +3,7 @@ import pandas as pd
 import re
 
 # PATTERN = re.compile(r'(\w+\s+\d+\s+\d+:\d+:\d+)\s+(\w+)\s+((\w+)(?:\((\w+)\))?(?:\[(\d+)\])?):\s*(.*)')
-path = "C:/Users/cleme/PycharmProjects/SIEM TP01/Linux.log"
+path = "../data/Linux.log"
 date_pattern = r"(\w+\s+\d+\s+\d{2}:\d{2}:\d{2})"
 process_pattern = r"combo\s+(\w+)(?:\[\d+\])?"
 process_id_pattern = r"(\w+)\[(\d+)\]:"
