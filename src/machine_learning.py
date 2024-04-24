@@ -1,7 +1,7 @@
 
 import pandas as pd
 from scipy.io import arff
-from src.constantes import ConstantesArff as coarff
+from constantes import ConstantesArff as coarff
 
 
 
@@ -17,6 +17,4 @@ class ArffToDf:
 
 
 df_test = ArffToDf().dataframe()
-
-
-
+print(df_test)
